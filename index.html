@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="add-new-book">
+      <div class="title-container">
+        <label for="bookTitle">Book Title</label>
+        <input type="text" id="bookTitle" />
+      </div>
+
+      <div class="author-container">
+        <label for="bookAuthor">Book Author</label>
+        <input type="text" id="bookAuthor" />
+      </div>
+
+      <div class="pages-container">
+        <label for="bookPages">Book Pages</label>
+        <input type="number" id="bookPages" value="0" />
+      </div>
+
+      <div class="status-container">
+        <label for="bookStatus">Book Status</label>
+        <select name="bookStatus" id="bookStatus">
+          <option value="Has been read">Has been read</option>
+          <option value="Not read yet">Not read yet</option>
+        </select>
+      </div>
+
+      <button id="addBookBtn">Add Book</button>
+    </div>
+
+    <div class="books-library">
+      <!-- 
+        <section class="book">
+        <p class="title">Title: <span>${bookTitle}</span></p>
+        <p class="author">Author: <span>${authorName}</span></p>
+        <p class="pages">Pages: <span>${TotalPages}</span></p>
+        <p class="status">Status: <span>${haveBeenRead}</span><button id="edit"></button></p>
+        <button id="delete">X</button>
+      </section>`
+     -->
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
